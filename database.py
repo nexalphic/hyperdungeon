@@ -7,7 +7,7 @@
 monsters = [
     ("Green Slime", 5, 1, "disgusting", "sticky", "dissolves away", 1, 1),
     ("Giant Rat", 6, 1, "filthy", "wild", "flops over and dies.", 2, 1),
-    ("Jackal", 7, 2, "wild, "hungry", "flops over and dies.", 3 , 1),
+    ("Jackal", 7, 2, "wild", "hungry", "flops over and dies.", 3 , 1),
     ("Bat", 6, 3, "screeching", "flying", "falls to the floor bleeding.", 3, 2),
     ("Zombie", 9, 3, "undead", "rotting", "falls over, truly dead", 4, 2),
     ("Kobold", 11, 4, "short", "blue skinned", "shivers violently and falls dead.", 4, 3),
@@ -18,7 +18,14 @@ monsters = [
     ("Water Elemental", 20, 8, "shifting", "fluidic", "dissolves into harmless water on the ground.", 8, 5)]
 
 #room detail data: percentage chance to generate, "string", "action"
-#if action is  
+#if action is boolean false, then there is no action.
 room_details = [
-    (10, "A mural of the ultimate creator covers the ceiling.", false),
+    (10, "A mural of the ultimate creator covers the ceiling in the", false),
+    (10, "Several headless statues are scattered throughout the", false),
+    (30, "Part of the ceiling has collapsed into the", false),
+    (30, "A large demonic idol with ruby eyes sits in the", false),
+    (30, "A throne upon a stone dais is in the", "throne")
+    #Note: remember to create throne action events
+    (
+]
     
