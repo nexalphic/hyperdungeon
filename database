@@ -1,0 +1,10 @@
+#this is the new frontier
+
+#Contains the data for the generator module to use.
+
+#monster data: "name", damage, health, "first adjective", "second adjective",
+#"death message", xp, level
+monsters = [
+    ("Green Slime", 5, 1, "disgusting", "sticky", "dissolves away", 1, 1)
+    ("Giant Rat", 6, 1, "filthy", "wild", )
+]
