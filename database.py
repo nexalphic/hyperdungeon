@@ -15,5 +15,10 @@ monsters = [
     ("Skeleton", 15, 5, "bony", "clacking", "crumbles into bones.", 6, 3),
     ("Blue Slime", 17, 6, "disgusting", "sticky", "dissolves away.", 7, 4),
     ("Cave Spider", 17, 7, "creepy", "crawling", "flops upside down and dies.", 7, 4),
-    ("Water Elemental", 20, 8, "shifting", "fluidic", "dissolves into harmless water on the ground.", 8, 5)
-]
+    ("Water Elemental", 20, 8, "shifting", "fluidic", "dissolves into harmless water on the ground.", 8, 5)]
+
+#room detail data: percentage chance to generate, "string", "action"
+#if action is  
+room_details = [
+    (10, "A mural of the ultimate creator covers the ceiling.", false),
+    
