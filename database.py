@@ -26,6 +26,29 @@ room_details = [
     (30, "A large demonic idol with ruby eyes sits in the", false),
     (30, "A throne upon a stone dais is in the", "throne")
     #Note: remember to create throne action events
-    (
+    (30, "A mural of ghoulish carnage covers the ceiling in the", false),
+    (30, "A mural of the universe's planes covers the ceiling in the", false),
+	(30, "A shallow pool of quicksilver lies in the", none),
+	(30, "A tile mosaic of legendary monsters covers the floor in the", none),
+	(30, "A tile mosaic of legendary heroes covers the floor in the", none),
+	(40, "Several rotten apples are scattered about the", "Rotten Food"),
+	(40, "Mushrooms are growing along the floor in the", "Mushroom"),
+    (50, "The floor is covered with teeth in the", "Teeth"),
+    (50, "There is a toppled statue in the", False),
+    (50, "A acrid odour fills the", False),
+    (50, "There is a high domed ceiling in the", False),
+    (50, "There are withered corpses in the", False),
+    (50, "A tile labyrinth covers the floor in the", False),
+    (50, "Perfect hexagonal tiles covers the floor in the", False),
+    (50, "A stream of blood flows a channel in the floor in the", False),
+    (50, "Part of the wall has collapsed in the", False),
+    (50, "The scent of ozone fills the", False),
+    (50, "The floor is covered with dust in the", False),
+    #Note: remember to create fountain action event
+    (50, "A clear pool of water is in the", "Fountain"),
+    (50, "A deep blue pool of water is in the", "Fountain"),
+    (50, "A light blue pool of water is in the", "Fountain"),
+	(50, "A pool of greenish water is in the", "Fountain"),
+    (50, "A pool of indigo is in the", "Fountain")
 ]
     
