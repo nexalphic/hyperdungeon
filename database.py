@@ -39,16 +39,16 @@ room_details = [
 	(50, "There is a high domed ceiling in the", False),
 	(50, "There are withered corpses in the", False),
 	(50, "A tile labyrinth covers the floor in the", False),
-    (50, "Perfect hexagonal tiles covers the floor in the", False),
-    (50, "A stream of blood flows a channel in the floor in the", False),
-    (50, "Part of the wall has collapsed in the", False),
-    (50, "The scent of ozone fills the", False),
-    (50, "The floor is covered with dust in the", False),
-    #Note: remember to create fountain action event
-    (50, "A clear pool of water is in the", "Fountain"),
-    (50, "A deep blue pool of water is in the", "Fountain"),
-    (50, "A light blue pool of water is in the", "Fountain"),
+	(50, "Perfect hexagonal tiles covers the floor in the", False),
+	(50, "A stream of blood flows a channel in the floor in the", False),
+	(50, "Part of the wall has collapsed in the", False),
+	(50, "The scent of ozone fills the", False),
+	(50, "The floor is covered with dust in the", False),
+	#Note: remember to create fountain action event
+	(50, "A clear pool of water is in the", "Fountain"),
+	(50, "A deep blue pool of water is in the", "Fountain"),
+	(50, "A light blue pool of water is in the", "Fountain"),
 	(50, "A pool of greenish water is in the", "Fountain"),
-    (50, "A pool of indigo is in the", "Fountain")
+	(50, "A pool of indigo is in the", "Fountain")
 ]
     
