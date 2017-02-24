@@ -20,6 +20,7 @@ monsters = [
 #room detail data: percentage chance to generate, "string", "action"
 #if action is boolean false, then there is no action.
 room_details = [
+	(10, "The sound of a synth is in the", False),
 	(10, "A mural of the ultimate creator covers the ceiling in the", false),
 	(10, "Several headless statues are scattered throughout the", false),
 	(30, "Part of the ceiling has collapsed into the", false),
@@ -49,6 +50,38 @@ room_details = [
 	(50, "A deep blue pool of water is in the", "Fountain"),
 	(50, "A light blue pool of water is in the", "Fountain"),
 	(50, "A pool of greenish water is in the", "Fountain"),
-	(50, "A pool of indigo is in the", "Fountain")
+	(50, "A pool of indigo is in the", "Fountain"),
+	(50, "A carved stone statue stands in the", False),
+	(50, "The sound of chanting is in the", False),
+	(50, "The sound of sobbing is in the", False),
+	(50, "The sound of marching is in the", False),
+	(50, "The sound of tapping is in the", False),
+	(50, "The sound of running is in the", False),
+	(50, "The sound of whistling is in the", False),
+	(50, "The sound of mournful whistling is in", False),
+	(50, "The sound of rattling is in the," False),
+	(50, "The sound of horns is in the", False),
+	(50, "The sound of a flute is in the", False),
+	(50, "The sound of a guitar is in the", False),
+	(50, "The sound of scratching is in the", False),
+	(50, "The sound of splashing is in the", False),
+	(50, "The sound of moaning is in the", False),
+	(50, "The sound of knocking is in the", False),
+	(50, "The sound of rushing water is in", False),
+	(50, "A simple fireplace sitting against the wall is in the", False),
+	(50, "The floor is covered with ash in the", False),
+	(50, "Iron chains hang from the ceiling in the", False),
+	(50, "An unexplained breeze can be felt in the", False),
+	(50, "Spirals of white stones cover the floor in the", False),
+	(50, "Spirals of black stones cover the floor in the", False),
+	(50, "Burning torches cover the wall in the", False),
+	(50, "Several corpses are impaled on spikes on ceiling in the", False)
 ]
-    
+
+#trap data: percentage chance to generate, trap name, effect, numbers of turns affecting, damage, damage type, level
+traps = [
+	#level 1 setback traps
+	(20, "Teleporter Crystal", "Teleport", False, False, False, "Any"),
+	(40, "Magic Missile", False, "1d3", False, False, 1)
+[
+	
