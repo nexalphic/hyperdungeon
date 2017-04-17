@@ -11,12 +11,11 @@ doortypes = {
 def generateDoor():
     door = []
     randDoortype = random.randomrand(0, 100)
-    for key  in doortypes
-        if ranDoortype <= doortypes[key]:
-            door.append(doortypes(key))
+    randDoortype = random.randrange(0, 100)
+    for key in doortypes:
+        if randDoortype <= key:
             break
 
 def generateRoom(level):
     for i in random.randrange(0, 4):
-        pass
 
