@@ -21,17 +21,17 @@ monsters = [
 #if action is boolean false, then there is no action.
 room_details = [
 	(10, "The sound of a synth is in the", False),
-	(10, "A mural of the ultimate creator covers the ceiling in the", false),
-	(10, "Several headless statues are scattered throughout the", false),
-	(30, "Part of the ceiling has collapsed into the", false),
-	(30, "A large demonic idol with ruby eyes sits in the", false),
+	(10, "A mural of the ultimate creator covers the ceiling in the", False),
+	(10, "Several headless statues are scattered throughout the", False),
+	(30, "Part of the ceiling has collapsed into the", False),
+	(30, "A large demonic idol with ruby eyes sits in the", False),
 	(30, "A throne upon a stone dais is in the", "throne")
 	#Note: remember to create throne action events
-	(30, "A mural of ghoulish carnage covers the ceiling in the", false),
-	(30, "A mural of the universe's planes covers the ceiling in the", false),
-	(30, "A shallow pool of quicksilver lies in the", none),
-	(30, "A tile mosaic of legendary monsters covers the floor in the", none),
-	(30, "A tile mosaic of legendary heroes covers the floor in the", none),
+	(30, "A mural of ghoulish carnage covers the ceiling in the", False),
+	(30, "A mural of the universe's planes covers the ceiling in the", False),
+	(30, "A shallow pool of quicksilver lies in the", False),
+	(30, "A tile mosaic of legendary monsters covers the floor in the", False),
+	(30, "A tile mosaic of legendary heroes covers the floor in the", False),
 	(40, "Several rotten apples are scattered about the", "Rotten Food"),
 	(40, "Mushrooms are growing along the floor in the", "Mushroom"),
 	(50, "The floor is covered with teeth in the", "Teeth"),
@@ -79,9 +79,16 @@ room_details = [
 ]
 
 #trap data: percentage chance to generate, trap name, effect, numbers of turns affecting, damage, damage type, level
-traps = [
+traps = (
 	#level 1 setback traps
-	(20, "Teleporter Crystal", "Teleport", False, False, False, "Any"),
-	(40, "Magic Missile", False, "1d3", False, False, 1)
-[
+	(10, "Teleporter Crystal", "Teleport", False, False, False, "Any"),
+	(40, "Magic Missile", False, "1d3", False, "arcane", 1),
+	(50, "Rune Of Paralyzation", "paralyze", "1d4", False, False, 1),
+	(50, "Net", "restrain", False, False, False, 1),
+	(50, "Symbol of Panic", "frightened", "1d3", False, False, 1),
+	(50, "Rune of Fear", "frightened", "1d2", False, False, 1),
+	(50, "Arrow", False, False, False, "1d2", 1),
+	(50, "Symbol of Hypnosis", "frightened", "1d4", False, 1)
+)
+
 	
