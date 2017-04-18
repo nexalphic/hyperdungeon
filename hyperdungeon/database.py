@@ -78,17 +78,31 @@ room_details = [
 	(50, "Several corpses are impaled on spikes on ceiling in the", False)
 ]
 
-#trap data: percentage chance to generate, trap name, effect, numbers of turns affecting, damage, damage type, level
+#trap data: p% chance to generate, trap name, effect, numbers of turns affecting, damage, damage type, level
 traps = (
 	#level 1 setback traps
 	(10, "Teleporter Crystal", "Teleport", False, False, False, "Any"),
-	(40, "Magic Missile", False, "1d3", False, "arcane", 1),
+	(40, "Magic Missile", False, False, "1d5", "arcane", 1),
 	(50, "Rune Of Paralyzation", "paralyze", "1d4", False, False, 1),
 	(50, "Net", "restrain", False, False, False, 1),
 	(50, "Symbol of Panic", "frightened", "1d3", False, False, 1),
 	(50, "Rune of Fear", "frightened", "1d2", False, False, 1),
-	(50, "Arrow", False, False, False, "1d2", 1),
-	(50, "Symbol of Hypnosis", "frightened", "1d4", False, 1)
+	(50, "Arrow", False, False, "1d2", False, 1),
+	(50, "Symbol of Hypnosis", "frightened", "1d4", False, False, 1),
+	#level 1 dangerous traps
+	(20, "Greater Arrow", False, False, "1d5", False, 1),
+	(20, "Thunderstone Mine", "deafen", "1d5", False, False, 1),
+	(20, "Concealed Pit", "pit", "1d4", False, False, 2),
+	(20, "Ice Dart Trip", False, False, "2d3", "frost", 1),
+	#level 1 deadly traps
+	(10, "Poison Spray", "poison", False, False, False, 1),
+	(10, "Scythe", False, False, "2d3", False, 1),
+	(10, "Electrified Floortile", False, False, "2d3", "electric", 1),
+	(10, "Chain Flail", False, False, "2d3", False, 1),
+	(10, "Earthmaw", False, False, "2d3", False, 1),
+	(10, "Falling Block", False, False, "2d3", False, 1),
+	(10, "Gullottine", False, False, "2d3", False, 1),
+	(10, "Fire Spray", fire, False, False, False, 1)
 )
 
 	
