@@ -5,30 +5,35 @@ doortypes = {
     50: "good",
     70: "strong",
     90: "fortified",
-    "last": "vault",
+    101: "vault",
 }
 def genDoorstrength():
-    door = []
     randDoortype = random.randrange(0, 100)
+    n = 0
     for key in doortypes:
         if randDoortype <= key:
-            door.append(doortypes[key])
-            break
+            return (doortypes[n])
+        else:
+            n +=1
 
 def genDoorstuck():
     randDoortype = random.randrange(0, 100)
     if randDoortype > 66:
-        door.append("stuck")
+        return "stuck"
     else:
-        door.append("unstuck")
+        return "unstuck"
 
-class Door(object):
-    def __init__(self, doorStrength):
+class Door():
+    def __init__(self):
         self.doorStrength = genDoorstrength()
         self.doorStuck = genDoorstuck()
 
 
 def generateRoom(level):
     room = []
-    for i in random.randrange(0, 4):
-        room.append(generateDoor())
+    for i in range(0, random.randint(0, 4)):
+        door = Door()
+        room.append(door)
+        return room
+
+print generateRoom(1)[0].doorStrength
